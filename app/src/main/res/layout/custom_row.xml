@@ -1,6 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="72dp"
+    android:layout_height="96dp"
     android:padding="6dip"
     android:clickable="true">
 
@@ -31,13 +31,14 @@
         android:layout_marginLeft="72dp"
         android:layout_marginRight="16dp" />
 
-    <TextView
+    <Button
         android:id="@+id/user_name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignWithParentIfMissing="true"
         android:gravity="center_vertical"
         android:text="Username"
+      style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
         android:textSize="14sp"
         android:paddingLeft="5dp"
         android:textColor="@color/colorPrimaryText"
