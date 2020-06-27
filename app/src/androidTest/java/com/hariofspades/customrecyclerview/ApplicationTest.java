@@ -15,6 +15,6 @@ public class ApplicationTest {
   public void useAppContext() {
     // Context of the app under test.
     Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-    assertThat(appContext.getPackageName()).isEqualTo("com.hariofspades.customrecyclerview.test");
+    assertThat(appContext.getPackageName()).isEqualTo("com.hariofspades.customrecyclerview");
   }
 }
